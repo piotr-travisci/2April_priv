@@ -1,6 +1,7 @@
 language: node_js
 script:
 - cat ~/.netrc
+- git clone https://github.com/piotr-travisci/aaanewrepo.git
 - git clone https://github.com/piotr-travisci/13MarPrivGH.git
 - git clone https://github.com/piotrmilcarz/4th_april_private.git
 - git clone https://github.com/piotrmilcarz/porepopriv2.git
