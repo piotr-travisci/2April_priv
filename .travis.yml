@@ -1,8 +1,10 @@
 language: node_js
-import:
-  - piotr-travisci/13MarPrivGH:.travis.yml@master
-  - piotrmilcarz/4th_april_private:.travis.yml@master
 script:
+- git clone git@github.com:piotr-travisci/13MarPrivGH.git
+- git clone https://github.com/travis-ci/travis-web.git
+- git clone https://github.com/piotrmilcarz/4th_april_private.git
+- git clone https://github.com/piotrmilcarz/porepopriv2.git
+- echo "OK"
 - cat ~/.netrc
 - echo "OK"
 - echo 1
