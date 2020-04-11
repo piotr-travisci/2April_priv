@@ -8,3 +8,4 @@ script:
 - git clone https://github.com/piotrmilcarz/4th_april_private.git
 - git clone https://github.com/piotrmilcarz/porepopriv2.git
 - echo 0
+- echo "OK"
