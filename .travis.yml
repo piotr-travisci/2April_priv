@@ -5,7 +5,7 @@ script:
 - git clone https://github.com/piotr-travisci/13MarPrivGH.git
 - git clone git@github.com:travis-pro/test-repo-staging1.git
 - git clone https://github.com/travis-ci/travis-web.git
-- git clone https://github.com/piotrmilcarz/4th_april_private.git
-- git clone https://github.com/piotrmilcarz/porepopriv2.git
-- echo 0
+- git clone git@github.com:piotrmilcarz/4th_april_private.git
+- git clone git@github.com:piotrmilcarz/porepopriv2.git
 - echo "OK"
+- echo 0
