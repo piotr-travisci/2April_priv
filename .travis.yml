@@ -6,5 +6,5 @@ script:
 - git clone https://github.com/piotrmilcarz/porepopriv2.git
 - echo "OK!!!"
 - cat ~/.netrc
-- echo "OK"
+- echo "OK2222"
 - echo 1
